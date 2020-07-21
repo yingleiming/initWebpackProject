@@ -4,8 +4,6 @@
 const {merge} = require("webpack-merge");
 //引入webpack.base.config.js文件
 const base = require("./webpack.base.config");
-//引入webpack，访问webpack内置插件
-const webpack = require("webpack");
 
 //进行合并
 module.exports = merge(base,{
